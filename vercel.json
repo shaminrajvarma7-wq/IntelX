@@ -1,0 +1,15 @@
+{
+  "installCommand": "npm install --prefix frontend && pip install -r backend/requirements.txt",
+  "buildCommand": "npm run build --prefix frontend",
+  "devCommand": "npm run dev --prefix frontend",
+  "framework": "nextjs",
+  "outputDirectory": "frontend/.next",
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60
+    },
+    "api/[...path].py": {
+      "maxDuration": 60
+    }
+  }
+}
