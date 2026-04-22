@@ -2,7 +2,7 @@
 
 A multimodal Retrieval-Augmented Generation (RAG) chatbot that can understand and answer questions about **documents, images, and YouTube videos**, with optional **web search** and **UI generation** tools.
 
-- **Check it out**: https://multimodal-rag-rho.vercel.app/ 🚀
+- **Check it out**: https://intel-x-amber.vercel.app/
 
 
 ---
